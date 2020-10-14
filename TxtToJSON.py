@@ -39,9 +39,6 @@ def _convertScalestoJSON():
             ptkey = "pt:[%s,%s]"%(ldata[6], ldata[7])
             gainkey = "gain:%s"%(ldata[8])
             
-            #namekey = "ScaleCorrection";
-            #if(_checkKey(namekey, dict_scales)): dict_scales[namekey] = OrderedDict() 
-            
 
             if(_checkKey(runkey, dict_scales)): dict_scales[runkey] = OrderedDict() 
             if(_checkKey(etakey, dict_scales[runkey])): dict_scales[runkey][etakey]  = OrderedDict()
@@ -63,22 +60,6 @@ def _convertScalestoJSON():
             dict_scales[runkey][etakey][r9key][ptkey][gainkey]["scale"] = float(ldata[9])
             dict_scales[runkey][etakey][r9key][ptkey][gainkey]["scaleErr"] = float(ldata[10])
             
-
-            
-            '''
-            dict_scales[namekey]["runMin"] = ldata[0]
-            dict_scales[namekey]["runMax"] = ldata[1]
-            dict_scales[namekey]["etaMin"] = ldata[2]
-            dict_scales[namekey]["etaMax"] = ldata[3]
-            dict_scales[namekey]["r9Min"] = ldata[4]
-            dict_scales[namekey]["r9Max"] = ldata[5]
-            dict_scales[namekey]["ptMin"] = ldata[6]
-            dict_scales[namekey]["ptMax"] = ldata[7]
-            dict_scales[namekey]["gain"] = ldata[8]
-
-            dict_scales[namekey]["scale"] = ldata[9]
-            dict_scales[namekey]["scaleErr"] = ldata[10] 
-            '''
     with open(outfilename_scales, 'w') as fp:
         json.dump(dict_scales, fp, sort_keys=False,indent=4 )
     
@@ -105,20 +86,6 @@ def _convertSmearingtoJSON():
             dict_smearing[catkey]["rhoErr"] = float(ldata[4])
             dict_smearing[catkey]["phi"] = ldata[5]
             dict_smearing[catkey]["phiErr"] = ldata[6]
-            
-            '''
-            dict_smearing[namekey]["etaMin"] = ldata[0] 
-            dict_smearing[namekey]["etaMax"] = ldata[1] 
-            dict_smearing[namekey]["r9Min"] = ldata[2] 
-            dict_smearing[namekey]["r9Max"] = ldata[3] 
-
-            dict_smearing[namekey]["Emean"] = ldata[4] 
-            dict_smearing[namekey]["EmeanErr"] = ldata[5] 
-            dict_smearing[namekey]["rho"] = ldata[6] 
-            dict_smearing[namekey]["rhoErr"] = ldata[7] 
-            dict_smearing[namekey]["phi"] = ldata[8] 
-            dict_smearing[namekey]["phiErr"] = ldata[9] 
-            '''
 
     with open(outfilename_smearing, 'w') as fp:
         json.dump(dict_smearing, fp, sort_keys=False,indent=4 )
