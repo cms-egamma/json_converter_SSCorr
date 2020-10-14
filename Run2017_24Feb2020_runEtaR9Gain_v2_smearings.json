@@ -1,0 +1,74 @@
+{
+    "category:[absEta_0_1-R9_0.960_1.000]": {
+        "category": "absEta_0_1-R9_0.960_1.000", 
+        "Emean": 6.55, 
+        "EmeanErr": 0.0, 
+        "rho": 0.00845, 
+        "rhoErr": 3e-05, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }, 
+    "category:[absEta_0_1-R9_0.000_0.960]": {
+        "category": "absEta_0_1-R9_0.000_0.960", 
+        "Emean": 6.49, 
+        "EmeanErr": 0.0, 
+        "rho": 0.0111, 
+        "rhoErr": 5e-05, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }, 
+    "category:[absEta_1_1.4442-R9_0.960_1.000]": {
+        "category": "absEta_1_1.4442-R9_0.960_1.000", 
+        "Emean": 6.54, 
+        "EmeanErr": 0.0, 
+        "rho": 0.0133, 
+        "rhoErr": 3e-05, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }, 
+    "category:[absEta_1_1.4442-R9_0.000_0.960]": {
+        "category": "absEta_1_1.4442-R9_0.000_0.960", 
+        "Emean": 6.52, 
+        "EmeanErr": 0.0, 
+        "rho": 0.0208, 
+        "rhoErr": 0.0003, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }, 
+    "category:[absEta_1.566_2-R9_0.960_1.000]": {
+        "category": "absEta_1.566_2-R9_0.960_1.000", 
+        "Emean": 6.18, 
+        "EmeanErr": 0.0, 
+        "rho": 0.0172, 
+        "rhoErr": 3e-05, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }, 
+    "category:[absEta_1.566_2-R9_0.000_0.960]": {
+        "category": "absEta_1.566_2-R9_0.000_0.960", 
+        "Emean": 6.2, 
+        "EmeanErr": 0.0, 
+        "rho": 0.0221, 
+        "rhoErr": 5e-05, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }, 
+    "category:[absEta_2_2.5-R9_0.960_1.000]": {
+        "category": "absEta_2_2.5-R9_0.960_1.000", 
+        "Emean": 6.49, 
+        "EmeanErr": 0.0, 
+        "rho": 0.01333, 
+        "rhoErr": 0.0001, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }, 
+    "category:[absEta_2_2.5-R9_0.000_0.960]": {
+        "category": "absEta_2_2.5-R9_0.000_0.960", 
+        "Emean": 6.46, 
+        "EmeanErr": 0.0, 
+        "rho": 0.02008, 
+        "rhoErr": 0.0001, 
+        "phi": "M_PI_2", 
+        "phiErr": "M_PI_2"
+    }
+}
